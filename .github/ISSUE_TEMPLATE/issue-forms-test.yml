@@ -1,9 +1,8 @@
 name: Submit a Repo Creation request
 description: Use an Action to create the repository
-title: "Creating Repository "
+title: "Repo:Create"
 labels: ["create-repo"]
-assignees:
-  - '${{ github.actor }}'
+
 body:
   - type: input
     id: repo-name
